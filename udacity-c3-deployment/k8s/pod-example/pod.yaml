@@ -4,8 +4,8 @@ metadata:
   name: podnginx
 spec:
   containers:
-  - image: martha4splitthoff/udacity-martha-nginx
-    name: udacity-martha-nginx
+  - image: martha4splitthoff/reverseproxy
+    name: reverseproxy
     imagePullPolicy: Always          
     resources:
       requests:
