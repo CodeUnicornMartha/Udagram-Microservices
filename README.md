@@ -7,7 +7,7 @@
 * [Kubernetes](#kubernetes)
 
 
-##Credentials
+## credentials
 - set locally your environment variables
 - fill in your credentials in env-secret.yaml file
 - fill in your credentials in aws-secret.yaml file
