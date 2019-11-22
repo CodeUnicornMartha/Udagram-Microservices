@@ -7,11 +7,11 @@ services:
   backend_user:
     build:
       context: ../../udacity-c3-restapi-user
-    image: martha4splitthoff/restapi-user
+    image: martha4splitthoff/backend-user
   backend_feed:
     build:
       context: ../../udacity-c3-restapi-feed  
-    image: martha4splitthoff/restapi-feed
+    image: martha4splitthoff/backend-feed
     #version 0.1.2 
   frontend:
     build:

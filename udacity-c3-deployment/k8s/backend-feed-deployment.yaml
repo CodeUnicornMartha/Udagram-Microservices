@@ -12,8 +12,8 @@ spec:
         service: backend-feed
     spec:
       containers:
-      - image: martha4splitthoff/restapi-feed
-        name: restapi-feed
+      - image: martha4splitthoff/backend-feed:0.0.1
+        name: backend-feed
         imagePullPolicy: Always  
         resources:
           requests:

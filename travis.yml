@@ -1,5 +1,5 @@
-language: minimal
-
+language: node_js
+#https://docs.travis-ci.com/user/tutorial/#selecting-a-different-programming-language
 services: docker
 
 env:
@@ -19,11 +19,7 @@ before_install:
 
 install:
   - docker-compose -f course-03/exercises/udacity-c3-deployment/docker/docker-compose-build.yaml build --parallel 
-  #- aws eks --region us-east-2 update-kubeconfig --name udacity-udagram
-  #- kubectl apply -f backend-feed-service.yaml
-  #- kubectl apply -f backend-feed-deployment.yaml
-  #- kubectl apply -f backend-user-service.yaml
-  #- kubectl apply -f backend-user-deployment.yaml
+
   
   
 
