@@ -1,5 +1,5 @@
 language: node_js
-#https://docs.travis-ci.com/user/tutorial/#selecting-a-different-programming-language
+
 services: docker
 
 env:
