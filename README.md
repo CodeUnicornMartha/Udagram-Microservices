@@ -19,10 +19,10 @@ Start with running the application locally:
 - docker-compose -f docker-compose-build.yaml build
 - docker-compose up 
 I used the following images:
-- https://hub.docker.com/r/martha4splitthoff/backend-feed
-- https://hub.docker.com/r/martha4splitthoff/backend-user
-- https://hub.docker.com/r/martha4splitthoff/reverseproxy
-- https://hub.docker.com/r/martha4splitthoff/frontend
+    - https://hub.docker.com/r/martha4splitthoff/backend-feed
+    - https://hub.docker.com/r/martha4splitthoff/backend-user
+    - https://hub.docker.com/r/martha4splitthoff/reverseproxy
+    - https://hub.docker.com/r/martha4splitthoff/frontend
 
 
 ## kubernetes
